@@ -3,6 +3,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
+
 @media (min-width: 1281px) {
   
     //CSS
@@ -52,6 +53,9 @@
     .et_pb_module_header {
         font-size: 2.5rem !important;
     }
+    .header-image {
+        display:none;
+    }
     
   }
   
@@ -64,6 +68,10 @@
     
     .et_pb_module_header {
         font-size: 2.5rem !important;
+    }
+
+    .header-image {
+        display:none;
     }
     
   }
