@@ -3,6 +3,9 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
+span.dashicons-phone {
+  margin-top: 5px;
+}
 
 @media (min-width: 1281px) {
   
@@ -65,7 +68,11 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
+    .carro_rojo{
+      display: none !important;
+    }
+
+
     .et_pb_module_header {
         font-size: 2.5rem !important;
     }
